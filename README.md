@@ -1,5 +1,8 @@
 # Hello World with Vanilla JS
 
+![random card generator](https://user-images.githubusercontent.com/39283223/44551440-29021200-a6f5-11e8-82cf-5eee6bcc2b0f.gif)
+
+
 #### Make sure you have node version 8
 ```sh
 $ nvm install 8
