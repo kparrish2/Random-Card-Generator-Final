@@ -13,7 +13,7 @@ window.onload = function(){
     
 window.genCard= function(){
     
-    var suit = ["♥","♠️","♣️","♦"];
+    var suit = ["♥","♠","♣","♦"];
     var numbers = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"];
     
         function randomCard(){
@@ -29,7 +29,7 @@ window.genCard= function(){
                 document.querySelector("#maincardcontainer").style.color = "red";
             }
             
-            else if (randomSuit=="♠" || randomSuit=="♣️"){
+            else if (randomSuit=="♠" || randomSuit=="♣"){
                 document.querySelector("#maincardcontainer").style.color = "black";
             
             }
